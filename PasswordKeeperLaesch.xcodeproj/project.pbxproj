@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A2B30C3208E2BE200A6C6D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A2B30C2208E2BE100A6C6D1 /* GoogleService-Info.plist */; };
+		0A60BA002089036F00EFF4E6 /* AppNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A60B9FF2089036F00EFF4E6 /* AppNavBar.swift */; };
+		0A60BA022089038A00EFF4E6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A60BA012089038A00EFF4E6 /* LoginViewController.swift */; };
+		0A60BA042089039D00EFF4E6 /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A60BA032089039C00EFF4E6 /* Password.swift */; };
+		0A60BA06208903CD00EFF4E6 /* PasswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A60BA05208903CD00EFF4E6 /* PasswordCell.swift */; };
+		0A60BA08208903E000EFF4E6 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A60BA07208903E000EFF4E6 /* PasswordViewController.swift */; };
 		0A69F0B02089015600C2A85C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A69F0AF2089015600C2A85C /* AppDelegate.swift */; };
-		0A69F0B22089015600C2A85C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A69F0B12089015600C2A85C /* ViewController.swift */; };
 		0A69F0B52089015600C2A85C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A69F0B32089015600C2A85C /* Main.storyboard */; };
 		0A69F0B72089015600C2A85C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A69F0B62089015600C2A85C /* Assets.xcassets */; };
 		0A69F0BA2089015600C2A85C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A69F0B82089015600C2A85C /* LaunchScreen.storyboard */; };
+		1027D3E4448BDAE7E3D37363 /* Pods_PasswordKeeperLaesch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E49CF9C9987F7F4CFA269B8 /* Pods_PasswordKeeperLaesch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A2B30C2208E2BE100A6C6D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0A60B9FF2089036F00EFF4E6 /* AppNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppNavBar.swift; path = "../../PasswordKeeper/Password Keeper/Password Keeper/AppNavBar.swift"; sourceTree = "<group>"; };
+		0A60BA012089038A00EFF4E6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "../../PasswordKeeper/Password Keeper/Password Keeper/LoginViewController.swift"; sourceTree = "<group>"; };
+		0A60BA032089039C00EFF4E6 /* Password.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Password.swift; path = "../../PasswordKeeper/Password Keeper/Password Keeper/Password.swift"; sourceTree = "<group>"; };
+		0A60BA05208903CD00EFF4E6 /* PasswordCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PasswordCell.swift; path = "../../PasswordKeeper/Password Keeper/Password Keeper/PasswordCell.swift"; sourceTree = "<group>"; };
+		0A60BA07208903E000EFF4E6 /* PasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PasswordViewController.swift; path = "../../PasswordKeeper/Password Keeper/Password Keeper/PasswordViewController.swift"; sourceTree = "<group>"; };
 		0A69F0AC2089015600C2A85C /* PasswordKeeperLaesch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordKeeperLaesch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A69F0AF2089015600C2A85C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0A69F0B12089015600C2A85C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0A69F0B42089015600C2A85C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A69F0B62089015600C2A85C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A69F0B92089015600C2A85C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A69F0BB2089015600C2A85C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F4CCA126737F958ACA96C51 /* Pods-PasswordKeeperLaesch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordKeeperLaesch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PasswordKeeperLaesch/Pods-PasswordKeeperLaesch.debug.xcconfig"; sourceTree = "<group>"; };
+		7529B54A89B07606C14B52F9 /* Pods-PasswordKeeperLaesch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordKeeperLaesch.release.xcconfig"; path = "Pods/Target Support Files/Pods-PasswordKeeperLaesch/Pods-PasswordKeeperLaesch.release.xcconfig"; sourceTree = "<group>"; };
+		9E49CF9C9987F7F4CFA269B8 /* Pods_PasswordKeeperLaesch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasswordKeeperLaesch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1027D3E4448BDAE7E3D37363 /* Pods_PasswordKeeperLaesch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				0A69F0AE2089015600C2A85C /* PasswordKeeperLaesch */,
 				0A69F0AD2089015600C2A85C /* Products */,
+				37510CD415E740ADD350045E /* Pods */,
+				85223C5207F5F6BB2925C207 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +72,35 @@
 			isa = PBXGroup;
 			children = (
 				0A69F0AF2089015600C2A85C /* AppDelegate.swift */,
-				0A69F0B12089015600C2A85C /* ViewController.swift */,
 				0A69F0B32089015600C2A85C /* Main.storyboard */,
+				0A60B9FF2089036F00EFF4E6 /* AppNavBar.swift */,
+				0A60BA032089039C00EFF4E6 /* Password.swift */,
 				0A69F0B62089015600C2A85C /* Assets.xcassets */,
+				0A60BA05208903CD00EFF4E6 /* PasswordCell.swift */,
+				0A60BA07208903E000EFF4E6 /* PasswordViewController.swift */,
+				0A60BA012089038A00EFF4E6 /* LoginViewController.swift */,
+				0A2B30C2208E2BE100A6C6D1 /* GoogleService-Info.plist */,
 				0A69F0B82089015600C2A85C /* LaunchScreen.storyboard */,
 				0A69F0BB2089015600C2A85C /* Info.plist */,
 			);
 			path = PasswordKeeperLaesch;
+			sourceTree = "<group>";
+		};
+		37510CD415E740ADD350045E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F4CCA126737F958ACA96C51 /* Pods-PasswordKeeperLaesch.debug.xcconfig */,
+				7529B54A89B07606C14B52F9 /* Pods-PasswordKeeperLaesch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85223C5207F5F6BB2925C207 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E49CF9C9987F7F4CFA269B8 /* Pods_PasswordKeeperLaesch.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A69F0BE2089015600C2A85C /* Build configuration list for PBXNativeTarget "PasswordKeeperLaesch" */;
 			buildPhases = (
+				D6AEBAC73C5408C99D28A83F /* [CP] Check Pods Manifest.lock */,
 				0A69F0A82089015600C2A85C /* Sources */,
 				0A69F0A92089015600C2A85C /* Frameworks */,
 				0A69F0AA2089015600C2A85C /* Resources */,
+				403F5D7DF9B65B6821F909CF /* [CP] Embed Pods Frameworks */,
+				2BAC5157CCD2A7408D6EE590 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A69F0BA2089015600C2A85C /* LaunchScreen.storyboard in Resources */,
+				0A2B30C3208E2BE200A6C6D1 /* GoogleService-Info.plist in Resources */,
 				0A69F0B72089015600C2A85C /* Assets.xcassets in Resources */,
 				0A69F0B52089015600C2A85C /* Main.storyboard in Resources */,
 			);
@@ -131,13 +174,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2BAC5157CCD2A7408D6EE590 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PasswordKeeperLaesch/Pods-PasswordKeeperLaesch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		403F5D7DF9B65B6821F909CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PasswordKeeperLaesch/Pods-PasswordKeeperLaesch-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FoldingCell/FoldingCell.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FoldingCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PasswordKeeperLaesch/Pods-PasswordKeeperLaesch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6AEBAC73C5408C99D28A83F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PasswordKeeperLaesch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0A69F0A82089015600C2A85C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A69F0B22089015600C2A85C /* ViewController.swift in Sources */,
+				0A60BA022089038A00EFF4E6 /* LoginViewController.swift in Sources */,
+				0A60BA002089036F00EFF4E6 /* AppNavBar.swift in Sources */,
+				0A60BA042089039D00EFF4E6 /* Password.swift in Sources */,
 				0A69F0B02089015600C2A85C /* AppDelegate.swift in Sources */,
+				0A60BA06208903CD00EFF4E6 /* PasswordCell.swift in Sources */,
+				0A60BA08208903E000EFF4E6 /* PasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +397,7 @@
 		};
 		0A69F0BF2089015600C2A85C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F4CCA126737F958ACA96C51 /* Pods-PasswordKeeperLaesch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +413,7 @@
 		};
 		0A69F0C02089015600C2A85C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7529B54A89B07606C14B52F9 /* Pods-PasswordKeeperLaesch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
