@@ -24,8 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // Programatically initialize the first view controller.
     window = UIWindow(frame: UIScreen.main.bounds)
 
-    let showLoginScreen = false
-    if showLoginScreen {
+    if Auth.auth().currentUser == nil {
       showLoginViewController();
     } else {
       showPasswordViewController();
@@ -35,11 +34,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   }
 
   func handleLogin() {
-    print("TODO: Implement sign in from the AppDelegate")
+    showPasswordViewController()
   }
 
   @objc func handleLogout() {
-    print("TODO: Implement sign out from the AppDelegate")
+    do {
+        try Auth.auth().signOut()
+    } catch {
+        print("Error on signout: \(error.localizedDescription)")
+    }
+    showLoginViewController()
   }
 
   func showLoginViewController() {
