@@ -8,15 +8,18 @@
 
 import UIKit
 import Firebase
+import GoogleSignIn
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 
   var window: UIWindow?
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     
     FirebaseApp.configure()
+    GIDSignIn.sharedInstance().clientID = FirebaseApp.app()?.options.clientID
+    GIDSignIn.sharedInstance().delegate = self
     
     // To give the iOS status bar light icons & text
     UIApplication.shared.statusBarStyle = .lightContent
@@ -32,7 +35,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     window?.makeKeyAndVisible()
     return true
   }
-
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        return GIDSignIn.sharedInstance().handle(url, sourceApplication: options[UIApplicationOpenURLOptionsKey.sourceApplication] as? String, annotation: [:])
+    }
+    
+    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
+        if let error = error {
+            print("Error with Google Auth: \(error.localizedDescription)")
+            return
+        }
+        print("You are signed in with Google \(user.profile.email)")
+        
+    }
+    
   func handleLogin() {
     showPasswordViewController()
   }
