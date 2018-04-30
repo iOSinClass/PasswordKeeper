@@ -46,7 +46,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
             return
         }
         print("You are signed in with Google \(user.profile.email)")
-        
+        guard let authentication = user.authentication else { return }
+        let credential = GoogleAuthProvider.credential(withIDToken: authentication.idToken, accessToken: authentication.accessToken)
+        Auth.auth().signIn(with: credential) { (user, error) in
+            if let error = error {
+                print("Firebase auth error with the Google token error: \(error.localizedDescription)")
+            }
+            if let user = user {
+                print("Firebase uid = \(user.uid)")
+                self.handleLogin()
+            }
+        }
     }
     
   func handleLogin() {
@@ -54,6 +64,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
   }
 
   @objc func handleLogout() {
+    GIDSignIn.sharedInstance().signOut()
     do {
         try Auth.auth().signOut()
     } catch {
